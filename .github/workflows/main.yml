@@ -3,7 +3,7 @@ name: Daily Market Report
 on:
   schedule:
     # This is set to 14:00 UTC (Which is 9:00 AM EST)
-    - cron: '0 14 * * *'
+    - cron: '0 15 * * *'
   workflow_dispatch: # This adds a "Play" button so you can run it manually
 
 jobs:
