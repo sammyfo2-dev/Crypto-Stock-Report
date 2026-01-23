@@ -10,7 +10,7 @@ from email.mime.multipart import MIMEMultipart
 # --- CONFIGURATION ---
 API_KEY = "CG-J4tDDnQxqUPkJdhsi45LyQco"
 EMAIL_USER = "sammyfo2@gmail.com"
-EMAIL_PASS = "rdoi hpgk ubpe ymbb"
+EMAIL_PASS = "djyf zeol njjt qtfj"
 
 # Dates
 REF_DATE_CG = "21-01-2026"  
@@ -170,4 +170,5 @@ try:
     send_combined_email(c_df, s_df)
     print("✅ Success! Everything sent.")
 except Exception as e:
+
     print(f"❌ Critical Error: {e}")
